@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1100" viewBox="0 0 1440 1100">
+  <defs>
+    <clipPath id="color-panel-clip"><rect x="0" y="0" width="760" height="632"/></clipPath>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffcf16"/><stop offset="1" stop-color="#087f73"/></linearGradient>
+    <linearGradient id="g01" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff72a"/><stop offset="1" stop-color="#ffd51b"/></linearGradient>
+    <linearGradient id="g02" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc91c"/><stop offset="1" stop-color="#ff9608"/></linearGradient>
+    <linearGradient id="g03" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb217"/><stop offset="1" stop-color="#ff6900"/></linearGradient>
+    <linearGradient id="g04" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff8b10"/><stop offset="1" stop-color="#ff3710"/></linearGradient>
+    <linearGradient id="g05" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff3d46"/><stop offset="1" stop-color="#ef0026"/></linearGradient>
+    <linearGradient id="g06" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef0636"/><stop offset="1" stop-color="#bd003b"/></linearGradient>
+    <linearGradient id="g07" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f31bb6"/><stop offset="1" stop-color="#ca087d"/></linearGradient>
+    <linearGradient id="g08" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d92cc5"/><stop offset="1" stop-color="#7c279f"/></linearGradient>
+    <linearGradient id="g09" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#73c72b"/><stop offset="1" stop-color="#179c64"/></linearGradient>
+    <linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#31d6e9"/><stop offset="1" stop-color="#0aaee5"/></linearGradient>
+    <linearGradient id="g11" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1299e6"/><stop offset="1" stop-color="#0860d0"/></linearGradient>
+    <linearGradient id="g12" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#087ee0"/><stop offset="1" stop-color="#0647a8"/></linearGradient>
+    <linearGradient id="g13" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42bd3d"/><stop offset="1" stop-color="#008b72"/></linearGradient>
+    <linearGradient id="g14" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a63c7"/><stop offset="1" stop-color="#073d89"/></linearGradient>
+    <linearGradient id="g15" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0bb693"/><stop offset="1" stop-color="#078d70"/></linearGradient>
+    <linearGradient id="g16" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16bc70"/><stop offset="1" stop-color="#18a657"/></linearGradient>
+    <linearGradient id="g17" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#27c66a"/><stop offset="1" stop-color="#08a56f"/></linearGradient>
+    <linearGradient id="g18" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6bd335"/><stop offset="1" stop-color="#19a94f"/></linearGradient>
+    <linearGradient id="g19" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8e42a"/><stop offset="1" stop-color="#63c928"/></linearGradient>
+    <linearGradient id="g20" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7dd52d"/><stop offset="1" stop-color="#25b94e"/></linearGradient>
+    <linearGradient id="g21" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#503593"/><stop offset="1" stop-color="#29276e"/></linearGradient>
+    <linearGradient id="g22" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9a2bb2"/><stop offset="1" stop-color="#56278f"/></linearGradient>
+    <filter id="play-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#111319" flood-opacity="0.30"/>
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#111319" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="1100" fill="#ffffff"/>
+
+  <g id="logo-sign" transform="translate(160 120)">
+    <path id="film-outer-outline" d="M70 0H1050Q1120 0 1120 70V580Q1120 650 1050 650H70Q0 650 0 580V70Q0 0 70 0Z" fill="none" stroke="#202126" stroke-width="6"/>
+    <path id="film-left-strip" d="M70 3H180V647H70Q3 647 3 580V70Q3 3 70 3Z" fill="#202126"/>
+    <path id="film-right-strip" d="M940 3H1050Q1117 3 1117 70V580Q1117 647 1050 647H940Z" fill="#202126"/>
+    <path id="film-inner-outline" d="M72 10H1048Q1110 10 1110 72V578Q1110 640 1048 640H72Q10 640 10 578V72Q10 10 72 10Z" fill="none" stroke="#73757c" stroke-width="2"/>
+
+    <g id="color-panel" transform="translate(180 9)" clip-path="url(#color-panel-clip)">
+      <rect id="color-base" width="760" height="632" fill="url(#base)"/>
+      <path id="segment-01" d="M0 0H365L190 120Z" fill="url(#g01)"/>
+      <path id="segment-02" d="M0 0L190 120L235 373L0 280Z" fill="url(#g02)"/>
+      <path id="segment-03" d="M190 120L365 0L235 373Z" fill="url(#g03)"/>
+      <path id="segment-04" d="M0 280L235 373L0 500Z" fill="url(#g04)"/>
+      <path id="segment-05" d="M0 500L235 373L0 632Z" fill="url(#g05)"/>
+      <path id="segment-06" d="M0 632L235 373L180 632Z" fill="url(#g06)"/>
+      <path id="segment-07" d="M180 632L235 373L360 632Z" fill="url(#g07)"/>
+      <path id="segment-08" d="M360 632L235 373L390 500Z" fill="url(#g08)"/>
+      <path id="segment-09" d="M365 0L525 344L235 373Z" fill="url(#g09)"/>
+      <path id="segment-10" d="M365 0H760L610 150Z" fill="url(#g10)"/>
+      <path id="segment-11" d="M760 0V280L610 150Z" fill="url(#g11)"/>
+      <path id="segment-12" d="M760 280L525 344L610 150Z" fill="url(#g12)"/>
+      <path id="segment-13" d="M525 344L365 0L610 150Z" fill="url(#g13)"/>
+      <path id="segment-14" d="M760 280V420L525 344Z" fill="url(#g14)"/>
+      <path id="segment-15" d="M760 420V632L650 500Z" fill="url(#g15)"/>
+      <path id="segment-16" d="M760 420L650 500L525 344Z" fill="url(#g16)"/>
+      <path id="segment-17" d="M760 632H590L650 500Z" fill="url(#g17)"/>
+      <path id="segment-18" d="M590 632L525 344L650 500Z" fill="url(#g18)"/>
+      <path id="segment-19" d="M235 373L525 344L390 500Z" fill="url(#g19)"/>
+      <path id="segment-20" d="M525 344L590 632L390 500Z" fill="url(#g20)"/>
+      <path id="segment-21" d="M590 632H360L390 500Z" fill="url(#g21)"/>
+      <path id="segment-22" d="M360 632L235 373L390 500Z" fill="url(#g22)"/>
+    </g>
+
+    <g id="film-holes" fill="#ffffff">
+      <rect id="hole-l1" x="54" y="74" width="82" height="80" rx="13"/>
+      <rect id="hole-l2" x="54" y="203" width="82" height="80" rx="13"/>
+      <rect id="hole-l3" x="54" y="332" width="82" height="80" rx="13"/>
+      <rect id="hole-l4" x="54" y="461" width="82" height="80" rx="13"/>
+      <rect id="hole-r1" x="984" y="74" width="82" height="80" rx="13"/>
+      <rect id="hole-r2" x="984" y="203" width="82" height="80" rx="13"/>
+      <rect id="hole-r3" x="984" y="332" width="82" height="80" rx="13"/>
+      <rect id="hole-r4" x="984" y="461" width="82" height="80" rx="13"/>
+    </g>
+
+    <path id="play" d="M455 172Q438 162 424 170Q409 180 409 202V466Q409 489 426 499Q442 508 461 498L690 369Q708 359 710 342Q711 324 691 311L465 176Q460 173 455 172Z" fill="#ffffff" stroke="#202126" stroke-width="7" stroke-linejoin="round" filter="url(#play-shadow)"/>
+  </g>
+
+  <text id="title" x="720" y="895" text-anchor="middle" fill="#202126" font-family="Oswald, sans-serif" font-size="100" font-weight="600" letter-spacing="1.2">МЕДИАЦЕНТР ДДЮТ</text>
+  <text id="subtitle" x="720" y="977" text-anchor="middle" fill="#202126" font-family="Roboto Condensed, sans-serif" font-size="48" font-weight="400">Выборгского района г. Санкт-Петербурга</text>
+</svg>
