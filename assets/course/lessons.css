@@ -21,7 +21,7 @@
 .task-layout{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:30px;margin-top:30px}
 .task-example{margin:0;padding:18px;border-radius:22px;background:#ffffff12}.task-example img{display:block;width:100%;max-height:660px;object-fit:contain;height:auto}
 .task-example figcaption{font-size:16px;margin-top:12px;color:#e4ddff}
-.checks .check-item{min-height:92px}.extension{margin-top:36px;padding:28px;border:1px solid #7f6cac;border-radius:22px;background:#ffffff0a}
+.steps,.checks{grid-auto-rows:1fr}.checks .check-item{min-height:92px}.extension{margin-top:36px;padding:28px;border:1px solid #7f6cac;border-radius:22px;background:#ffffff0a}
 .extension h3{color:var(--yellow);font-size:26px}.extension p{margin-bottom:0}
 .recall{max-width:900px;margin-top:28px;padding:28px;border:1px solid var(--line);border-radius:24px;background:#fff}
 .quiz-options{display:grid;gap:12px;margin-top:24px}.quiz-option{text-align:left;min-height:58px;padding:15px 20px;border:2px solid var(--line);border-radius:14px;background:var(--paper);color:var(--ink);font-size:19px;font-weight:750;cursor:pointer}
