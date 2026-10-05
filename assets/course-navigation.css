@@ -1,0 +1,7 @@
+.course-navigation{min-height:0!important;padding:48px clamp(18px,7vw,90px) 64px!important;background:var(--paper)}
+.course-navigation .finish-nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin:0}
+.course-navigation .button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 21px;border:0;border-radius:14px;background:var(--violet,var(--blue));color:#fff;font-size:17px;font-weight:850;text-decoration:none;line-height:1.42}
+.course-navigation .button.secondary{background:var(--lilac,#e8f2ff);color:var(--violet,var(--blue))}
+.course-navigation .button:hover{filter:brightness(.95)}
+.course-navigation .button:focus-visible{outline:3px solid var(--orange,#9e7511);outline-offset:4px}
+@media(max-width:580px){.course-navigation{padding-top:32px!important;padding-bottom:48px!important}.course-navigation .finish-nav{gap:12px}.course-navigation .button{padding:14px 17px;font-size:16px}}
